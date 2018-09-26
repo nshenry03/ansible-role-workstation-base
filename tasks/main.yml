@@ -1,0 +1,5 @@
+---
+# tasks file for workstation-base
+- name: Setup NTP and Timezone
+  import_role:
+    name: geerlingguy.ntp
