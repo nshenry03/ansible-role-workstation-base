@@ -1,5 +1,3 @@
 - src: geerlingguy.ntp
 - src: https://github.com/nshenry03/ansible-role-bash
-  name: nshenry03.bash
 - src: https://github.com/nshenry03/ansible-role-vim
-  name: nshenry03.vim

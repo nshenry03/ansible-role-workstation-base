@@ -2,7 +2,7 @@ galaxy_info:
   author: Nick Henry
   description: Base role to be installed on all Nick Henry workstations
   license: MIT
-  min_ansible_version: 1.2
+  min_ansible_version: 2.5
   platforms:
     - name: EL
       versions:
@@ -19,6 +19,4 @@ galaxy_info:
 dependencies:
   - src: geerlingguy.ntp
   - src: https://github.com/nshenry03/ansible-role-bash
-    name: nshenry03.bash
   - src: https://github.com/nshenry03/ansible-role-vim
-    name: nshenry03.vim

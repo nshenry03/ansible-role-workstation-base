@@ -5,8 +5,8 @@
 
 - name: Setup bash
   import_role:
-    name: nshenry03.bash
+    name: ansible-role-bash
 
 - name: Setup Vim
   import_role:
-    name: nshenry03.vim
+    name: ansible-role-vim
