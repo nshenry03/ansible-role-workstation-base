@@ -1,0 +1,9 @@
+---
+workstation_base_packages:
+  - ack
+  - byobu
+  - gimp
+  - gnome-tweak-tool
+  - jq
+  - meld
+  - xclip

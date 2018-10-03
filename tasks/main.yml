@@ -1,4 +1,7 @@
 ---
+- name: Include OS-specific variables.
+  include_vars: "{{ ansible_os_family }}.yml"
+
 - name: Setup NTP and Timezone
   import_role:
     name: geerlingguy.ntp
@@ -10,3 +13,8 @@
 - name: Setup Vim
   import_role:
     name: ansible-role-vim
+
+- name: Ensure base packages are installed
+  package:
+    name: "{{ workstation_base_packages }}"
+    state: present
