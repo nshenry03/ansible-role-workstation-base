@@ -1,5 +1,12 @@
 ---
-# tasks file for workstation-base
 - name: Setup NTP and Timezone
   import_role:
     name: geerlingguy.ntp
+
+- name: Setup bash
+  import_role:
+    name: nshenry03.bash
+
+- name: Setup Vim
+  import_role:
+    name: nshenry03.vim

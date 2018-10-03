@@ -13,9 +13,7 @@ None.
 Role Variables
 --------------
 
-Set the timezone for your server.
-
-    ntp_timezone: Etc/UTC
+None.
 
 Dependencies
 ------------
